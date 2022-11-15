@@ -4,9 +4,11 @@
 
 This project implements the Playfair cipher:
 
-> The Playfair cipher or Playfair square or Wheatstone–Playfair cipher is a manual symmetric encryption technique and was the first literal digram substitution cipher. The scheme was invented in 1854 by Charles Wheatstone, but bears the name of Lord Playfair for promoting its use.
+> The Playfair cipher was the first cipher to encrypt pairs of letters in cryptologic history.[2][3] Wheatstone invented the cipher for secrecy in telegraphy, but it carries the name of his friend Lord Playfair, first Baron Playfair of St. Andrews, who promoted its use.[3][4][5] The first recorded description of the Playfair cipher was in a document signed by Wheatstone on 26 March 1854.
 >
-> The technique encrypts pairs of letters (bigrams or digrams), instead of single letters as in the simple substitution cipher and rather more complex Vigenère cipher systems then in use. The Playfair is thus significantly harder to break since the frequency analysis used for simple substitution ciphers does not work with it. The frequency analysis of bigrams is possible, but considerably more difficult. With 600 possible bigrams rather than the 26 possible monograms (single symbols, usually letters in this context), a considerably larger cipher text is required in order to be useful.
+> It was initially rejected by the British Foreign Office when it was developed because of its perceived complexity...It was however later used for tactical purposes by British forces in the Second Boer War and in World War I and for the same purpose by the British and Australians during World War II. This was because Playfair is reasonably fast to use and requires no special equipment - just a pencil and some paper...
+>
+> During World War II, the Government of New Zealand used it for communication among New Zealand, the Chatham Islands, and the coastwatchers in the Pacific Islands. Coastwatchers established by Royal Australian Navy Intelligence also used this cipher.
 >
 > -   [Wikipedia](https://en.wikipedia.org/wiki/Playfair_cipher)
 

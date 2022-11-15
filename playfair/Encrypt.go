@@ -4,7 +4,7 @@ import "github.com/pkg/errors"
 
 func Encrypt(message string, key string) (string, error) {
 	var ans string
-	keyTable, err := createStrArr(key)
+	keyTable, err := convertKeyToStringArray(key)
 	if err != nil {
 		return "", errors.Wrap(err, "Generaing keytable")
 	}

@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func createStrArr(str string) ([]string, error) {
+func convertKeyToStringArray(str string) ([]string, error) {
 	str = strings.ToUpper(str)
 
 	// alphabet holds a list of A-Z

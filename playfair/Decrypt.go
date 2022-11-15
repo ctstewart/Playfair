@@ -8,7 +8,7 @@ import (
 
 func Decrypt(message string, key string) (string, error) {
 	var ans string
-	keyTable, err := createStrArr(key)
+	keyTable, err := convertKeyToStringArray(key)
 	if err != nil {
 		return "", errors.Wrap(err, "creating string array from key")
 	}

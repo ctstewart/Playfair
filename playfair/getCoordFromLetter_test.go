@@ -6,7 +6,7 @@ import (
 )
 
 func TestGetCoordFromLetter(t *testing.T) {
-	strArr, err := createStrArr("PALMERSTON")
+	strArr, err := convertKeyToStringArray("PALMERSTON")
 	if err != nil {
 		t.Fatalf("Got error: %s", err)
 	}

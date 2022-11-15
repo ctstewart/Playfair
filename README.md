@@ -22,8 +22,6 @@ There are two options for usage:
 
 ### Run the Example
 
-The provided example asks
-
 In your terminal:
 
 ```console
@@ -33,7 +31,7 @@ go mod tidy
 go run ./cmd
 ```
 
-Your terminal will prompt you to either run the example or try encrypting/decrypting your own message.
+You'll then be prompted to either run the example or try encrypting/decrypting your own message.
 
 If you choose the latter, don't forget to follow the constraints listed above.
 

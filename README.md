@@ -22,7 +22,7 @@ This project implements the Playfair cipher:
 
 There are two options for usage:
 
-### Run the Example
+### Example
 
 In your terminal:
 
@@ -36,6 +36,14 @@ go run ./cmd
 You'll then be prompted to either run the example or try encrypting/decrypting your own message.
 
 If you choose the latter, don't forget to follow the constraints listed above.
+
+You can also build the image. In your terminal:
+
+```console
+go build ./cmd
+```
+
+This will build an optimized executable compatible with your operating system.
 
 ### Import
 

@@ -4,7 +4,7 @@
 
 This project implements the Playfair cipher:
 
-> The Playfair cipher was the first cipher to encrypt pairs of letters in cryptologic history.[2][3] Wheatstone invented the cipher for secrecy in telegraphy, but it carries the name of his friend Lord Playfair, first Baron Playfair of St. Andrews, who promoted its use.[3][4][5] The first recorded description of the Playfair cipher was in a document signed by Wheatstone on 26 March 1854.
+> The Playfair cipher was the first cipher to encrypt pairs of letters in cryptologic history. Wheatstone invented the cipher for secrecy in telegraphy, but it carries the name of his friend Lord Playfair, first Baron Playfair of St. Andrews, who promoted its use. The first recorded description of the Playfair cipher was in a document signed by Wheatstone on 26 March 1854.
 >
 > It was initially rejected by the British Foreign Office when it was developed because of its perceived complexity...It was however later used for tactical purposes by British forces in the Second Boer War and in World War I and for the same purpose by the British and Australians during World War II. This was because Playfair is reasonably fast to use and requires no special equipment - just a pencil and some paper...
 >

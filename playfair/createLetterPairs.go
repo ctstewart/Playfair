@@ -6,7 +6,7 @@ import (
 
 func createLetterPairs(s string) [][2]string {
 	s = strings.ToUpper(s)
-	strArr := splitStr(s)
+	strArr := strings.Split(s, "")
 
 	var lp [][2]string
 	for {

@@ -5,16 +5,14 @@ import (
 	"strings"
 )
 
-func convertKeyToStringArray(str string) ([]string, error) {
-	str = strings.ToUpper(str)
+func convertKeyToStringArray(key string) ([]string, error) {
+	key = strings.ToUpper(key)
 
 	// alphabet holds a list of A-Z
 	seen_letters := map[string]bool{}
 
 	var strArr []string
-	for _, c := range str {
-		char := string(c)
-
+	for _, char := range strings.Split(key, "") {
 		if char == "J" {
 			char = "I"
 		}
